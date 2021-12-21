@@ -140,6 +140,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\NhaCungCap441.cs" />
     <Compile Include="Models\PVN1721050441DbContext.cs" />
+    <Compile Include="Models\PVNSanPham441.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
