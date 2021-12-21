@@ -129,6 +129,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountsController.cs" />
+    <Compile Include="Controllers\GetDatasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NhaCungCap441Controller.cs" />
     <Compile Include="Controllers\PVNSanPham441sController.cs" />
@@ -149,6 +150,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\GetData.cs" />
     <Compile Include="Models\NhaCungCap441.cs" />
     <Compile Include="Models\PVN1721050441DbContext.cs" />
     <Compile Include="Models\PVNSanPham441.cs" />
@@ -201,6 +203,7 @@
     <Content Include="Views\PVNSanPham441s\Edit.cshtml" />
     <Content Include="Views\PVNSanPham441s\Index.cshtml" />
     <Content Include="Views\Accounts\Login.cshtml" />
+    <Content Include="Views\GetDatas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

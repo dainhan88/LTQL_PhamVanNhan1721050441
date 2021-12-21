@@ -1,0 +1,43 @@
+﻿@model IEnumerable<LTQL_1721050441.Models.GetData>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>View 2 Bảng </h2>
+<table class="table">
+    <tr>
+        <th>
+            Mã Nhà Cung Cấp
+        </th>
+        <th>
+            Tên Nhà CUng Cấp
+        </th>
+        <th>
+            Mã Sản Phẩm
+        </th>
+        <th>
+            Tên Sản Phẩm
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.NhaCungCap441s.MaNhaCungCap
+            </td>
+            <td>
+                @item.NhaCungCap441s.TenNhaCungCap
+            </td>
+            <td>
+                @item.pVNSanPham441s.MaSanPham
+            </td>
+            <td>
+                @item.pVNSanPham441s.TenSanPham
+            </td>
+        </tr>
+    }
+
+</table>
+
