@@ -11,7 +11,7 @@ namespace LTQL_1721050441.Models
             : base("name=PVN1721050441DbContext")
         {
         }
-
+        public virtual DbSet<NhaCungCap441> NhaCungCap441s { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
