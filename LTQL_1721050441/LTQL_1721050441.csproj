@@ -128,8 +128,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NhaCungCap441Controller.cs" />
+    <Compile Include="Controllers\PVNSanPham441sController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -137,7 +139,16 @@
     <Compile Include="Migrations\202112210559156_create_table_NCC.Designer.cs">
       <DependentUpon>202112210559156_create_table_NCC.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112210610366_create_table_Sp.cs" />
+    <Compile Include="Migrations\202112210610366_create_table_Sp.Designer.cs">
+      <DependentUpon>202112210610366_create_table_Sp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112210617346_Create_table_Acount.cs" />
+    <Compile Include="Migrations\202112210617346_Create_table_Acount.Designer.cs">
+      <DependentUpon>202112210617346_Create_table_Acount.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Account.cs" />
     <Compile Include="Models\NhaCungCap441.cs" />
     <Compile Include="Models\PVN1721050441DbContext.cs" />
     <Compile Include="Models\PVNSanPham441.cs" />
@@ -184,6 +195,12 @@
     <Content Include="Views\NhaCungCap441\Details.cshtml" />
     <Content Include="Views\NhaCungCap441\Edit.cshtml" />
     <Content Include="Views\NhaCungCap441\Index.cshtml" />
+    <Content Include="Views\PVNSanPham441s\Create.cshtml" />
+    <Content Include="Views\PVNSanPham441s\Delete.cshtml" />
+    <Content Include="Views\PVNSanPham441s\Details.cshtml" />
+    <Content Include="Views\PVNSanPham441s\Edit.cshtml" />
+    <Content Include="Views\PVNSanPham441s\Index.cshtml" />
+    <Content Include="Views\Accounts\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -204,6 +221,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202112210559156_create_table_NCC.resx">
       <DependentUpon>202112210559156_create_table_NCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112210610366_create_table_Sp.resx">
+      <DependentUpon>202112210610366_create_table_Sp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112210617346_Create_table_Acount.resx">
+      <DependentUpon>202112210617346_Create_table_Acount.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
